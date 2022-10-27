@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Other semantics examples</title>
+</head>
+
+<body>
+    <p>We use <abbr>HTML</abbr>, Hypertext Markup Language, to structure our web documents.</p>
+
+    <p>I think <abbr title="Reverend">Rev.</abbr> Green did it in the kitchen with the chainsaw.</p>
+
+    <address>
+        <p>Chris Mills, Manchester, The Grim North, UK</p>
+    </address>
+
+    <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+
+    <p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+
+    <p>If x<sup>2</sup> is 9, x must equal 3.</p>
+
+    <pre><code>var para = document.querySelector('p');
+
+para.onclick = function() {
+  alert('Owww, stop poking me!');
+}</code></pre>
+
+    <p>You shouldn't use presentational elements like <code>&lt;font&gt;</code> and <code>&lt;center&gt;</code>.</p>
+
+    <p>In the above JavaScript example, <var>para</var> represents a paragraph element.</p>
+
+    <p>Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+
+    <pre>$ <kbd>ping mozilla.org</kbd>
+<samp>PING mozilla.org (63.245.215.20): 56 data bytes
+64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+
+    <time datetime="2016-01-20">20 January 2016</time>
+
+    <h1>Advanced HTML Animals</h1>
+
+    <dl>
+        <dt>Llama</dt>
+        <dd>Tall, wooly quadruped, pointy ears. Sometimes rideable, but grumpy and spits a lot. Big fan of list items.
+        </dd>
+        <dt>Anaconda</dt>
+        <dd>A very large constrictor snake; travels rapidly by way of anchors to sneak up on his prey.</dd>
+        <dt>Hippopotamus</dt>
+        <dd>His description is bottomless.
+        <dd>
+    </dl>
+
+    <h1>Advanced text semantics</h1>
+
+    <p>Let's start with a quote:</p>
+
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Learn/Accessibility">
+        <p>By default, <abbrtitle="Hypertext Markup Language">HTML</abbr> is accessible, if used correctly.</p>
+    </blockquote>
+
+
+    <p><abbr title="Cascading Style Sheets">CSS</abbr> can also be used to make web pages more, or less, accessible.</p>
+
+    <p>Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H<sub>6</sub>O (Ethanol).</p>
+
+    <p>Dates: <time datetime="2019-12-25">December 25<sup>th</sup> 2019</time> (Christmas Day), <time
+            datetime="2019-11-2">November 2nd 2019</time> (Día de los Muertos).</p>
+
+</body>
+
+</html>
